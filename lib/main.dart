@@ -35,33 +35,33 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(25.0),
         child: ListView(
           children: [
-            ListTile(
+            const ListTile(
               leading: Icon(Icons.settings),
               title: Text('Settings'),
             ),
-            Divider(
+            const Divider(
               color: Colors.teal,
             ),
-            ListTile(
+           const ListTile(
               leading: Icon(Icons.access_alarm),
               title: Text('Alarm'),
             ),
-            Divider(),
-            ListTile(
+            const Divider(),
+            const ListTile(
               leading: Icon(Icons.contact_mail),
               title: Text('Contact'),
             ),
-            Divider(),
-            ListTile(
+           const  Divider(),
+            const ListTile(
               title: Text(''),
             ),
-            Divider(),
+            const Divider(),
             ListTile(
-              title: Text('${country[4]}'),
+              title: Text('$country[4]'),
             ),
-            Divider(),
+            const Divider(),
             ListTile(
-              title: Text('${country[5]}'),
+              title: Text('$country[5]'),
             )
           ],
         ),
