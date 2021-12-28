@@ -13,13 +13,7 @@ class LongList extends StatefulWidget {
 class _LongListState extends State<LongList> {
   @override
   Widget build(BuildContext context) {
-    final List<String> cntry = [
-      'Nepal',
-      'india',
-      'Bhutan',
-      'Maldives',
-      'pakistaan'
-    ];
+   
     return Scaffold(
       appBar: AppBar(
         title: const Text('Long list example'),

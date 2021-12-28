@@ -6,7 +6,7 @@ void main() {
     MaterialApp(
       home: LongList(
         products:
-            List<String>.generate(100, (index) => 'myproducts list  $index'),
+            List<String>.generate(100, (index) => 'myproducts list:  $index'),
       ),
     ),
   );
